@@ -201,7 +201,7 @@ def get_data(days, stock_namelist_df):
 
 #監視銘柄の読み出し
 # ファイル選択ダイアログを開く
-input_path_name = '/Volumes/KIOXIA1/personal/001_programming/Python/2023/200_Docker/001_株価表示アプリ/銘柄コード一覧_2023-03.csv'
+input_path_name = './銘柄コード一覧_2023-03.csv'
 upload_file = input_path_name
 # upload_file = st.file_uploader('ファイルをアップロードしてください。', type='csv')
 
